@@ -30,5 +30,5 @@ ${form.get('message')}
 Thank you.`
   );
   document.getElementById('form-status').textContent = 'Your email app should open with the inquiry prepared. Please review and send it.';
-  window.location.href = `mailto:?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:cameron.mazziotta@gmail.com?subject=${subject}&body=${body}`;
 });
